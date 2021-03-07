@@ -1,0 +1,101 @@
+h2 {
+  font-family: 'LatoRegular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  max-width: 1080px;
+}
+h1 {
+  font-family: 'LatoRegular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  max-width: 960px;
+}
+h3 {
+  font-family: 'LatoRegular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+
+}
+body {
+  background-color:black;
+}
+p {
+  font-family: 'LatoRegular';
+  color: white;
+  font-size: 25px;
+  max-width: 860px;
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section {
+  float: right;
+  width: 70%
+  margin:auto;
+  max-width: 500px;
+}
+.bordered {
+  border-style: inset;
+  border-width: 5px;
+  border-color: white
+}
+.grey {
+  background-color: rgb(50,50,50);
+}
+.box {
+  max-width: 1000px;
+  padding-bottom: 50px;
+}
+a:link, a:visited {
+  color: rgb(255,255,255);
+  text-decoration: underline;
+}
+
+a:link:active, a:visited:active {
+  color: (internal value);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(30, 30, 30);
+  margin-top: 50px;
+}
+li {
+  float: left;
+}
+li a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 26px;
+  font-size: 25px;
+  font-family: 'LatoRegular';
+}
+i {
+  font-family: 'LatoRegular';
+  color: rgb(200,200,200);
+  font-size: 25px;
+  max-width: 560px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+footer {
+  background-color: grey;
+}
+audio {
+  width: 960px;
+}
